@@ -1,11 +1,10 @@
 GET http://localhost:5001/api/contacts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiZGlwZXNoIiwiZW1haWwiOiJkaXBlc2hAZ21haWwuY29tIiwiaWQiOiI2ODExZTI4YjY4ZDk5NjFiMDI4ZTUwMmQifSwiaWF0IjoxNzQ2MDAyNTk0LCJleHAiOjE3NDYwODg5OTR9.JN7lVi7XG0w7wHy7rRXikTcwdOn2HuaGpMyxeiG0eXo
-
+Authorization: Bearer ADD_YOUR_JSON_WEBTOKEN
 ###
 GET http://localhost:5001/api/contacts/6810da28aad7beb5b32c856c
 ###
 POST http://localhost:5001/api/contacts/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiZGlwZXNoIiwiZW1haWwiOiJkaXBlc2hAZ21haWwuY29tIiwiaWQiOiI2ODExZTI4YjY4ZDk5NjFiMDI4ZTUwMmQifSwiaWF0IjoxNzQ2MDAyNTk0LCJleHAiOjE3NDYwODg5OTR9.JN7lVi7XG0w7wHy7rRXikTcwdOn2HuaGpMyxeiG0eXo
+Authorization: Bearer ADD_YOUR_JSON_WEBTOKEN
 Content-Type: application/json
 
 {
@@ -16,7 +15,7 @@ Content-Type: application/json
 
 ###
 PUT http://localhost:5001/api/contacts/6811e2c868d9961b028e5031
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiZGlwZXNoIiwiZW1haWwiOiJkaXBlc2hAZ21haWwuY29tIiwiaWQiOiI2ODExZTI4YjY4ZDk5NjFiMDI4ZTUwMmQifSwiaWF0IjoxNzQ2MDAyNTk0LCJleHAiOjE3NDYwODg5OTR9.JN7lVi7XG0w7wHy7rRXikTcwdOn2HuaGpMyxeiG0eXo
+Authorization: Bearer ADD_YOUR_JSON_WEBTOKEN
 Content-Type: application/json
 
 {
@@ -25,7 +24,7 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:5001/api/contacts/6811e78eeb93c590c819336c
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiZGlwZXNoIiwiZW1haWwiOiJkaXBlc2hAZ21haWwuY29tIiwiaWQiOiI2ODExZTI4YjY4ZDk5NjFiMDI4ZTUwMmQifSwiaWF0IjoxNzQ2MDAyNTk0LCJleHAiOjE3NDYwODg5OTR9.JN7lVi7XG0w7wHy7rRXikTcwdOn2HuaGpMyxeiG0eXo
+Authorization: Bearer ADD_YOUR_JSON_WEBTOKEN
 
 
 ###
@@ -35,9 +34,9 @@ POST http://localhost:5001/api/users/register
 Content-Type: application/json
 
 {
-    "username": "dipesh",
-    "email": "dipesh@gmail.com",
-    "password": "Dipesh@4324"
+    "username": "John",
+    "email": "john@gmail.com",
+    "password": "john@4324"
 }
 
 
@@ -46,11 +45,11 @@ POST http://localhost:5001/api/users/login
 Content-Type: application/json
 
 {
-    "email":"dipesh@gmail.com",
-    "password": "Dipesh@4324"
+    "email":"alex@gmail.com",
+    "password": "alex@4324"
 }
 
 
 ###
 POST http://localhost:5001/api/users/current
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiZGlwZXNoIiwiZW1haWwiOiJkaXBlc2hAZ21haWwuY29tIiwiaWQiOiI2ODExZTI4YjY4ZDk5NjFiMDI4ZTUwMmQifSwiaWF0IjoxNzQ2MDAyNTk0LCJleHAiOjE3NDYwODg5OTR9.JN7lVi7XG0w7wHy7rRXikTcwdOn2HuaGpMyxeiG0eXo
+Authorization: Bearer ADD_YOUR_JSON_WEBTOKEN
