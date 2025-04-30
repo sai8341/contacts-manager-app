@@ -56,7 +56,7 @@ contacts-manager-nodejs-app/
 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/contacts-manager-nodejs-app.git
+git clone https://github.com/sai8341/contacts-manager-app.git
 cd contacts-manager-nodejs-app
 ```
 
@@ -71,7 +71,7 @@ npm install
 ```
 PORT=3000
 MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
+SECRET_ACCESS_TOKEN=your_jwt_secret_key
 ```
 
 4. Start the server
@@ -80,7 +80,7 @@ JWT_SECRET=your_jwt_secret_key
 npm start
 ```
 
-For development with auto-reload:
+For development with auto-reload (nodemon):
 
 ```
 npm run dev
